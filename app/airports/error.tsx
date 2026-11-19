@@ -11,7 +11,7 @@ export default function ErrorPage({
       <p className="text-red-600">Ocurrió un error al cargar los datos.</p>
       <button
         onClick={reset}
-        className="rounded bg-black px-4 py-2 text-white hover:opacity-80"
+        className="rounded bg-black px-4 py-2 text-white dark:bg-white dark:text-black hover:opacity-80"
       >
         Reintentar
       </button>

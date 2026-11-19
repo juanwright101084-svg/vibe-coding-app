@@ -22,7 +22,7 @@ export default function Home() {
 
       <Link
         href="/airports"
-        className="inline-block rounded bg-black px-5 py-3 text-white hover:opacity-80"
+        className="inline-block rounded bg-black px-5 py-3 text-white dark:bg-white dark:text-black hover:opacity-80"
       >
         Ver aeropuertos
       </Link>
