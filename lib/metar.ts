@@ -1,5 +1,10 @@
+export type Cloud = { cover: string; base: number | null };
+
 export type Metar = {
   icaoId: string;
+  name?: string;
+  lat?: number;
+  lon?: number;
   reportTime: string;
   temp: number | null;
   dewp: number | null;
@@ -8,6 +13,7 @@ export type Metar = {
   visib: number | string | null;
   altim: number | null;
   fltCat?: "VFR" | "MVFR" | "IFR" | "LIFR";
+  clouds?: Cloud[];
   rawOb: string;
 };
 
